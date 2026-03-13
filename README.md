@@ -92,13 +92,13 @@ Contains database scripts and schema for payment transaction persistence.
 
 
 
-repo-db/
+repo-db/              → payment-database
 
-repo-eureka/
+repo-eureka/          → service-registry
 
-repo-processing/
+repo-processing/      → payment-processing-service
 
-repo/
+repo/                 → payment-provider-service
 
 
 
@@ -249,6 +249,7 @@ Run processing service after Eureka registration.
 Run provider service after processing service.
 
 
+Test APIs in Postman.
 
 ---
 
