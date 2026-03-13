@@ -1,0 +1,10 @@
+target/
+*.log
+*.jar
+.idea/
+.vscode/
+*.zip
+Backup/
+temp/
+deploy/
+Session-meterial-v3/
