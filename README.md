@@ -20,6 +20,24 @@ The system is designed to simulate a real payment ecosystem where multiple indep
 
 
 
+\## Project Structure
+
+
+
+repo-db/              → payment-database
+
+repo-eureka/          → service-registry
+
+repo-processing/      → payment-processing-service
+
+repo/                 → payment-provider-service
+
+
+
+---
+
+
+
 \## Microservices Included
 
 
@@ -88,21 +106,6 @@ Contains database scripts and schema for payment transaction persistence.
 
 
 
-\## Project Structure
-
-
-
-repo-db/              → payment-database
-
-repo-eureka/          → service-registry
-
-repo-processing/      → payment-processing-service
-
-repo/                 → payment-provider-service
-
-
-
----
 
 
 
